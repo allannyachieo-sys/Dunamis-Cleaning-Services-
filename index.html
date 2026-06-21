@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dunamis Cleaning Service LLC</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f6fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      max-width: 120px;
+      height: auto;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #9b59b6;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #a569bd;
+    }
+
+    /* Hero section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 30px;
+    }
+    .hero-text h1 {
+      color: #9b59b6;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      margin-bottom: 25px;
+    }
+    .stars {
+      color: gold;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    .hero-text button {
+      background: linear-gradient(135deg, #9b59b6, #a569bd);
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+    .hero-text button:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, #a569bd, #9b59b6);
+    }
+    .hero-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Services section */
+    .services {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 40px;
+    }
+    .service {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+    .service-text {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 30px;
+    }
+    .service-text h2 {
+      color: #9b59b6;
+      margin-bottom: 15px;
+    }
+    .service-text ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .service-text ul li {
+      margin-bottom: 10px;
+    }
+    .service-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .service-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #9b59b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+.floating-header {
+  position: fixed; /* makes it float */
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  background: rgba(255, 255, 255, 0.85); /* semi-transparent white */
+  backdrop-filter: blur(10px); /* glass-like blur */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  z-index: 1000;
+}
+
+.logo img {
+  max-width: 120px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05); /* subtle hover effect */
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #9b59b6;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a569bd;
+}
+
+  </style>
+
+
+</head>
+<body>
+  <header>
+    <img src="real.logo2.png" alt="Dunamis Cleaning Logo">
+    <nav>
+      <a href="#">About Us</a>
+            <a href="dunamis-deliveries.html">Deliveries</a>
+      <a href="https://wa.me/254700339723" target="_blank">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <div class="stars">★★★★★ 5.0 Trusted Local Team</div>
+      <h1>Professional Cleaning Services You Can Trust</h1>
+      <p>Reliable, thorough, and affordable cleaning services for homes and businesses. We leave every space spotless — guaranteed satisfaction.</p>
+      <button>Request a Cleaning Service!</button>
+    </div>
+    <div class="hero-image">
+     <img src="clean-liningroom.jpeg" alt="Clean modern living room">
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <div class="service">
+      <div class="service-text">
+        <h2>Deep Cleaning</h2>
+        <p>A thorough top-to-bottom clean that reaches every corner, crack, and surface most routines miss.</p>
+        <ul>
+          <li>Inside appliances (oven, fridge, microwave)</li>
+          <li>Baseboards, vents, and ceiling fans</li>
+          <li>Grout scrubbing and tile polishing</li>
+          <li>Behind and under furniture cleaning</li>
+          <li>Cabinet interiors and window tracks</li>
+        </ul>
+      </div>
+      <div class="service-image">
+        <img src="deep-cleaning.jpg" alt="Deep cleaning service">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Airbnb / Short-Stay Cleaning</h2>
+        <p>Fast, reliable turnover cleaning for short-term rentals to impress every guest.</p>
+        <ul>
+          <li>Fresh linens and towels</li>
+          <li>Kitchen and bathroom reset</li>
+          <li>Dusting and vacuuming all areas</li>
+          <li>Trash removal and sanitizing</li>
+          <li>Deposit-ready results guaranteed</li>
+        </ul>
+      </div>
+      <div class="service-image">
+        <img src="airbnb-clean.jpg" alt="Airbnb cleaning service">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Commercial Cleaning</h2>
+        <p>Professional cleaning for offices and businesses — maintaining a healthy, productive environment every day.</p>
+        <ul>
+          <li>Office desks, chairs and common areas</li>
+          <li>Restrooms disinfected and restocked</li>
+          <li>Floor care: vacuuming, sweeping, mopping</li>
+          <li>Reception and lobby detail cleaning</li>
+          <li>Scheduled after-hours service available</li>
+        </ul>
+      </div>
+      <div class="service-image">
+        <img src="commercial-clean.jpg" alt="Commercial cleaning service">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Move In / Move Out Cleaning</h2>
+        <p>Leave your old place spotless or start fresh in your new one — we handle the cleaning so you focus on moving.</p>
+        <ul>
+          <li>Full property clean from top to bottom</li>
+          <li>Inside cabinets, closets and drawers</li>
+          <li>Appliances, walls and light fixtures</li>
+          <li>Bathrooms disinfected and polished</li>
+          <li>Deposit-ready results guaranteed</li>
+        </ul>
+      </div>
+      <div class="service-image">
+        <img src="property-clean.webp" alt="Move in move out cleaning">
+      </div>
+    </div>
+
+    <div class="service">
+      <div class="service-text">
+        <h2>Post-Construction Cleaning</h2>
+        <p>Remove dust, debris, and polish your new space so it’s ready to shine.</p>
+        <ul>
+          <li>Debris removal and disposal</li>
+          <li>Dusting and vacuuming all surfaces</li>
+          <li>Window and glass polishing</li>
+          <li>Floor scrubbing and detailing</li>
+          <li>Final inspection for house cleaning</li>
+        </ul>
+      </div>
+      <div class="service-image">
+        <img src="post-construction.jpg" alt="Move in move out cleaning">
+      </div>
+    </div>
+
+
+    <!-- Contact Section -->
+<section class="contact">
+  <div style="max-width: 1200px; margin: 60px auto; padding: 0 40px; text-align: center;">
+    <h2 style="color:#9b59b6; margin-bottom:20px;">Get In Touch</h2>
+    <p>We’re here to answer your questions and provide reliable cleaning solutions tailored to your needs. Reach out today!</p>
+    <div style="margin-top:30px; font-size:18px; line-height:1.8;">
+      <p><strong>Phone:</strong> <a href="tel:+254700339723" style="color:#9b59b6; text-decoration:none;">+254 700 339 723</a></p>
+      <p><strong>Email:</strong> 
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mariamaureen@gmail.com" style="color:#9b59b6; text-decoration:none;">mariamaureen@gmail.com</a>
+      </p>
+      <p><strong>TikTok:</strong>  
+        <a href="https://www.tiktok.com/@DunamisCleaning_Services" target="_blank" style="color:#9b59b6; text-decoration:none;">DunamisCleaning_Services</a>
+      </p>
+    </div>
+  </div>
+</section>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Dunamis Cleaning Service LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
