@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dunamis Deliveries</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f6fc;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      max-width: 120px;
+      height: auto;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      color: #9b59b6;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #a569bd;
+    }
+
+    /* Hero section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 30px;
+    }
+    .hero-text h1 {
+      color: #9b59b6;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      margin-bottom: 25px;
+    }
+    .hero-text button {
+      background: linear-gradient(135deg, #9b59b6, #a569bd);
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+    .hero-text button:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, #a569bd, #9b59b6);
+    }
+    .hero-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Services/Delivery Areas */
+    .services {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 40px;
+    }
+    .service {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+    .service-text {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 30px;
+    }
+    .service-text h2 {
+      color: #9b59b6;
+      margin-bottom: 15px;
+    }
+    .service-text ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .service-text ul li {
+      margin-bottom: 10px;
+    }
+    .service-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .service-image img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Contact section */
+    .contact {
+      background: #f0eef7;
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .contact h2 {
+      color: #9b59b6;
+      margin-bottom: 20px;
+    }
+    .contact a {
+      color: #9b59b6;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #9b59b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="real.logo3.png" alt="Dunamis Deliveries Logo">
+    <nav>
+      <a href="index.html">Cleaning</a>
+      
+      <a href="https://wa.me/254700339723" target="_blank">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Fast & Reliable Deliveries in Nakuru</h1>
+      <p>We bring convenience to your doorstep — need vegetables you know who to call , Dunamis Deliveries , we ensure a  safe, timely, and affordable service across Nakuru.</p>
+      <button>Request a Delivery!</button>
+    </div>
+    <div class="hero-image">
+      <img src="delievry-black.webp" alt="Delivery service in action">
+    </div>
+  </section>
+
+  <!-- Delivery Areas -->
+  <section class="services">
+    <div class="service">
+      <div class="service-text">
+        <h2>Delivery Areas in Nakuru</h2>
+        <p>We cover all major neighborhoods and business hubs in Nakuru to make sure you’re always connected.</p>
+        <ul>
+          <li>Nakuru CBD</li>
+          <li>Lanet</li>
+          <li>Kiamunyi</li>
+          <li>Shabab</li>
+          <li>Milimani</li>
+          <li>Free Area</li>
+          <li>London Estate</li>
+          <li>Menengai</li>
+        </ul>
+      </div>
+      <div class="service-image">
+        <img src="nakuru-map.png" alt="Map of Nakuru delivery areas">
+      </div>
+    </div>
+
+     <!-- Contact Section -->
+<section class="contact">
+  <div style="max-width: 1200px; margin: auto;">
+    <h2>Get In Touch</h2>
+    <p>Have questions or need assistance? Reach out to us anytime.</p>
+    <p><strong>Phone:</strong> <a href="tel:+254700339723">+254 700 339 723</a></p>
+    <p><strong>Email:</strong> 
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mariamaureen@gmail.com" 
+         style="color:#9b59b6; text-decoration:none;">mariamaureen@gmail.com</a>
+    </p>
+    <p><strong>TikTok:</strong>  
+      <a href="https://www.tiktok.com/@DunamisCleaning_Services" target="_blank" 
+         style="color:#9b59b6; text-decoration:none;">DunamisCleaning_Services</a>
+    </p>
+  </div>
+</section>
+
+                
+</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Dunamis Deliveries. All rights reserved.</p>
+  </footer>
+</body>
+</html>
